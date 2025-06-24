@@ -1,0 +1,40 @@
+{
+  "name": "naughty-logbook",
+  "version": "0.1.0",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "license": "MIT",
+  "description": "Nodejs file system logger with rotation",
+  "main": "main.js",
+  "types": "main.d.ts",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "nodejs",
+    "logger",
+    "file system",
+    "iterable",
+    "rotation"
+  ],
+  "files": [
+    "lib/",
+    "main.d.ts"
+  ],
+  "dependencies": {
+    "naughty-util": "^0.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "types": "tsc -p ./tsconfig.json",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaughtySora/naughty-logbook"
+  },
+  "bugs": {
+    "url": "https://github.com/NaughtySora/naughty-logbook/issues",
+    "email": "naughtysora@proton.me"
+  }
+}
